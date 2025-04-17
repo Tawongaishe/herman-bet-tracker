@@ -147,5 +147,7 @@ frontend/
 
 ## Next Steps
 - Rename "You" to be Tawo since it was made from Tawo's POV
-- Create a more fun UI to type in the amount owed like say an annoying slider I am inspired by things like this https://www.reddit.com/r/badUIbattles/
+- Create a more fun UI to type in the amount owed like say an annoying slider I am inspired by things like this https://www.reddit.com/r/badUIbattles/\
+- host the front end backends
+-  buy a domain name for the project 
   
