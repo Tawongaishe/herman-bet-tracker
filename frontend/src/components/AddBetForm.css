@@ -1,0 +1,176 @@
+/* AddBetForm.css */
+.add-bet-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .add-bet-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2d3748;
+    text-align: center;
+  }
+  
+  .error-message {
+    padding: 10px;
+    background-color: #fff5f5;
+    color: #c53030;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #4a5568;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #4299e1;
+    outline: none;
+  }
+  
+  .winner-buttons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .winner-buttons button {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 4px;
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .winner-buttons button.active {
+    border-color: #4299e1;
+    background-color: #ebf8ff;
+    color: #2b6cb0;
+  }
+  
+  .winner-buttons button:hover:not(.active) {
+    background-color: #f7fafc;
+  }
+  
+  .secret-code-section {
+    position: relative;
+    margin-top: 24px;
+  }
+  
+  .tooltip {
+    display: inline-block;
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    background: #e2e8f0;
+    color: #4a5568;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    cursor: help;
+    position: relative;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    width: 280px;
+    background-color: #2d3748;
+    color: white;
+    text-align: left;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -140px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .code-hint {
+    font-size: 12px;
+    color: #718096;
+    margin-top: 4px;
+    font-style: italic;
+  }
+  
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .key {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  
+  .key:hover {
+    background-color: #ebf8ff;
+    border-color: #bee3f8;
+  }
+  
+  .key:active {
+    transform: scale(0.95);
+  }
+  
+  .backspace {
+    grid-column: span 2;
+    background-color: #f7fafc;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4299e1;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #3182ce;
+  }

@@ -1,0 +1,153 @@
+/* BetList.css */
+.bet-list h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #2d3748;
+    text-align: center;
+  }
+  
+  .bet-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  
+  .bet-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+  }
+  
+  .bet-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .winner-tag {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .winner-tag.you {
+    background-color: #c6f6d5;
+    color: #22543d;
+  }
+  
+  .winner-tag.herman {
+    background-color: #bee3f8;
+    color: #2c5282;
+  }
+  
+  .bet-amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d3748;
+  }
+  
+  .bet-description {
+    flex-grow: 1;
+    margin-bottom: 12px;
+    color: #4a5568;
+    font-size: 14px;
+  }
+  
+  .bet-date {
+    font-size: 12px;
+    color: #718096;
+    margin-bottom: 12px;
+  }
+  
+  .bet-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bet-actions button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s ease;
+  }
+  
+  .bet-actions button:first-child {
+    background-color: #ebf8ff;
+    color: #2b6cb0;
+  }
+  
+  .bet-actions button:last-child {
+    background-color: #fff5f5;
+    color: #c53030;
+  }
+  
+  .bet-actions button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Edit form styles */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .form-group label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4a5568;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .edit-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  
+  .edit-actions button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s ease;
+  }
+  
+  .edit-actions button:first-child {
+    background-color: #c6f6d5;
+    color: #22543d;
+  }
+  
+  .edit-actions button:last-child {
+    background-color: #edf2f7;
+    color: #4a5568;
+  }

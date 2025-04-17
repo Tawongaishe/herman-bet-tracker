@@ -1,0 +1,74 @@
+/* App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #2d3748;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background: white;
+  padding: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabs button {
+  border: none;
+  background: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #4a5568;
+  transition: all 0.2s ease;
+}
+
+.tabs button.active {
+  background-color: #4299e1;
+  color: white;
+}
+
+.tabs button:hover:not(.active) {
+  background-color: #ebf4ff;
+}
+
+main {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loading, .no-bets {
+  text-align: center;
+  padding: 24px;
+  color: #718096;
+  font-style: italic;
+}
