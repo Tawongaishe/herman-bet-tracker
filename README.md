@@ -40,7 +40,7 @@ The app allows you to:
 1. Clone the repository
 ```bash
 git clone <repository-url>
-cd herman-you-betting-tracker
+cd herman-tawo-betting-tracker
 ```
 
 2. Create a virtual environment and activate it
