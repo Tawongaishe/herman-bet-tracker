@@ -1,4 +1,4 @@
-# Herman & You Betting Tracker
+# Herman & Tawo Betting Tracker
 
 A simple web application to track bets between you and Herman, helping you keep tabs on who owes whom.
 
